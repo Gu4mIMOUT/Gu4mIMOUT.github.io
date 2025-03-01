@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pide tu Receta - Chechy Recetas</title>
+    <link rel="stylesheet" href="pedido.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="banner">
+            <img src="../banner/Banner.png" alt="Banner Chechy Recetas">
+        </div>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../recetas/recetas.html">Recetas</a></li>
+                    <li><a href="pedir-receta.html">Pide tu receta</a></li>
+                    <li><a href="../contacto/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="pedido">
+            <h2>¡Pide tu Receta aqui! 💬</h2>
+            <p>Cuéntanos qué receta te gustaría aprender y la subiremos lo antes posible. 😋</p>
+            <form id="pedido">
+                <label for="pedido">Pedido:</label>
+                <textarea id="pedido" name="pedido" placeholder="Describe tu pedido (ingredientes, tipo de comida, etc.)" required></textarea>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </div>
+        <div id="footer">
+            <p>&copy; 2025 Chechy Recetas. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>

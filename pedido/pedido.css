@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+#contenedor {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#banner img {
+    width: 100%;
+    display: block;
+}
+
+#menu {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0; /* Añadido padding para el menú */
+}
+
+#menu nav ul {
+    width: 100%;
+    text-align: center;
+}
+
+#menu nav ul li {
+    display: inline-block;
+    margin: 0 15px; /* Añadido margen entre elementos del menú */
+}
+
+#menu nav ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #333;
+}
+
+#menu nav ul li a:hover {
+    background-color: #555;
+}
+
+#ImagenCentral {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#ImagenCentral img {
+    width: 100%;
+    max-height: 400px; 
+    object-fit: cover; 
+}
+
+#ImagenCentral h2 {
+    margin-top: 10px;
+}
+
+.productos {
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden; 
+}
+
+.producto {
+    width: 48%; 
+    float: left;
+    margin: 1%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+#footer {
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos del formulario */
+#pedido {
+    padding: 20px;
+    text-align: center;
+    clear: both; /* Limpia los flotados para que el formulario se muestre debajo de los productos */
+}
+
+#pedido h2 {
+    margin-bottom: 10px;
+}
+
+#pedido p {
+    margin-bottom: 20px;
+}
+
+#pedido {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#pedido label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#pedido textarea,
+#pedido input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#pedido button {
+    background-color: #a32f38;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#pedidoForm button:hover {
+    background-color: #c24c55;
+}
+
+#menu nav ul li {
+    display: inline-block;
+}
+
+#menu nav ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #333;
+}
+
+#menu nav ul li a:hover {
+    background-color: #555;
+}
+
+#ImagenCentral {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#ImagenCentral img {
+    width: 100%;
+    max-height: 400px; 
+    object-fit: cover; 
+}
+
+#ImagenCentral h2 {
+    margin-top: 10px;
+}
+
+.productos {
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden; 
+}
+
+.producto {
+    width: 48%; 
+    float: left;
+    margin: 1%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+#footer {
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px 0;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+/* Heredamos estilos generales de tu CSS existente */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+#contenedor {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#banner img {
+    width: 100%;
+    display: block;
+}
+
+#menu {
+    width: 100%;
+    background-color: #333;
+}
+
+#menu nav ul {
+    width: 100%;
+    text-align: center;
+}
+
+#menu nav ul li {
+    display: inline-block;
+}
+
+#menu nav ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #333;
+}
+
+#menu nav ul li a:hover {
+    background-color: #555;
+}
+
+#footer {
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#info-contacto {
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#info-contacto h2 {
+    margin-bottom: 10px;
+}
+
+#info-contacto ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#info-contacto li {
+    margin-bottom: 5px;
+}
